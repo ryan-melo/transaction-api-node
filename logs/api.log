@@ -1,0 +1,5 @@
+2025-03-19T16:51:15.214Z - GET - /users - ::ffff:127.0.0.1
+2025-03-19T17:03:27.651Z - GET - /users - ::ffff:127.0.0.1 - [object Object]
+2025-03-19T17:03:58.364Z - GET - /users - ::ffff:127.0.0.1 - f1b7038b-4bb5-4ec5-a303-44f9f5e6a321
+2025-03-19T17:28:17.207Z - GET - /deposito - ::ffff:127.0.0.1 - undefined
+2025-03-19T17:29:22.501Z - GET - /deposito - ::ffff:127.0.0.1 - f1b7038b-4bb5-4ec5-a303-44f9f5e6a321
