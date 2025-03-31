@@ -1,5 +1,6 @@
 import express from 'express'
 import { PrismaClient } from '@prisma/client'
+import logger from '../middlewares/logging.js'
 import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken"
 
@@ -40,6 +41,8 @@ router.post('/cadastro', async (req, res) => {
 })
 
 router.post('/login', async (req, res) => {
+
+    logger.info('Aplicação iniciada!');
 
     try {
         const user = req.body
